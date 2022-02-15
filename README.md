@@ -1,2 +1,2 @@
 # web
-Simple Website with HTML and CSS
+Simple Website with HTML, CSS and Javascript
