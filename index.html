@@ -4,63 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rohilla</title>
-        
-        <style>  
-            :root
-            {
-                --margin-top: auto;
-            }
+    
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
 
-            *
-            {
-                margin: 0;
-                padding: 0;
-            }
-            body
-            {
-                background-color:lightgrey;
-            }  
-            .div
-            {
-                box-sizing: border-box;
-                margin: var(--margin-top) auto;
-                text-align: center;
-            }
-            .text
-            {
-                box-sizing: border-box;
-                display: inline-block;
-                color: rgb(54, 49, 49);
-                font-size: 80px;
-                text-shadow: 3px 4px 5px rgb(103, 106, 109);
-                transition-delay: 1s;
-            }
-            p:hover
-            {
-                color: lightgrey;
-                transition: all 1s linear;
-            }
-        </style>  
+    <title>Rohilla</title>
     </head>  
     
     <body onresize="centre()" onload="centre()">
         <div class="div" id="div">
             <p class="text" id="id">Aman Rohilla</p>
         </div>
-
-        <script>
-
-            function centre()
-            {
-                var div = document.getElementById("div");
-                var dh = div.offsetHeight;
-                var wh = window.innerHeight;
-                var margin_top = (wh - dh - 2)/2;
-
-                document.querySelector(':root').style.setProperty('--margin-top', margin_top.toString()+"px");
-            }
-
-        </script>
     </body>  
 </html>  
