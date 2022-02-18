@@ -1,0 +1,42 @@
+:root 
+{
+  --margin-top: auto;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body 
+{
+  background-color: lightgrey;
+}
+
+.div 
+{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: var(--margin-top) auto;
+  text-align: center;
+}
+
+.text 
+{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  color: #363131;
+  font-size: 80px;
+  text-shadow: 3px 4px 5px #676a6d;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+p:hover 
+{
+    color: lightgrey;
+    -webkit-transition: all 1s linear;
+            transition: all 1s linear;
+}
